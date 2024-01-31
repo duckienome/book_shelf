@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+.s{
+    background: #2e3440;
+    border-color: #d8dee9;
+    background: #4c566a;
+    background: #a3be8c;
+    font-family: 'Space Mono', monospace;
+}
+body{
+    background: #2e3440;
+}
+.me{
+    color: hsl(0, 57%, 52%);
+}
+img{
+    aspect-ratio: calc(450/700);
+
+    height: 400px;
+    margin: 4%;
+    padding: 4%;
+    border: 4%;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: #d8dee9;
+    background: hsl(220, 16%, 36%);
+
+}
+
+.main{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+    margin: 0 auto;
+    padding: auto;
+}
+
+.tdiv{
+    cursor: pointer;
+    margin: none;
+    width: auto;
+    height: auto;
+    font-size: 64px;
+    font-family: 'Yellowtail', cursive;
+    background: #8fbcbb;
+    color:#eceff4;
+    text-align: center;
+    border-bottom-right-radius: 48px;
+    border-bottom-left-radius: 48px;
+}
+.bdiv{
+    margin: none;
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    background: #a3be8c;
+    text-align: center;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+    color: #141414;
+}
