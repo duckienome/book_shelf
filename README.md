@@ -1,4 +1,4 @@
-# https://duckies0.github.io/bookstack/
+# https://duckienome.github.io/book_shelf/
 
 ## Book stack for self
 
